@@ -1,0 +1,20 @@
+export const site = {
+  name: "Blackhawk Realty Group",
+  owners: "Basil & Betty Sullivan",
+  address: "1 West Court Square, Decatur, GA, USA",
+  phone: "470-455-9103",
+  telephone: "tel:+14704559103",
+  email: "Contact@blackhawkrealtygroup.com",
+  mailto: "mailto:Contact@blackhawkrealtygroup.com",
+  directions: "https://www.google.com/maps/dir/?api=1&destination=1%20West%20Court%20Square%2C%20Decatur%2C%20GA%2C%20USA",
+  navigation: [
+    { label: "Home", href: "#home" },
+    { label: "Buy", href: "#buyers" },
+    { label: "Sell", href: "#sellers" },
+    { label: "Lease", href: "#properties" },
+    { label: "About", href: "#about" },
+    { label: "Blog", href: "#blog-preview" },
+    { label: "Trusted Vendors", href: "#connections" },
+    { label: "Contact Us", href: "#contact" },
+  ],
+} as const;

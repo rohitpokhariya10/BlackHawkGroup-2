@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+
+# Next.js build output
+.next/
+out/
+build/
+next-env.d.ts
+*.tsbuildinfo
+
+# Environment files and credentials
+.env*
+*.pem
+*.key
+credentials*.json
+.vercel/
+
+# OS / editor
+.DS_Store
+*.log
+npm-debug.log*
+
+# Playwright output
+playwright-report/
+test-results/
+blob-report/
+playwright/.cache/
+
+# Private client material — kept locally only
+*.pdf
+docs/audit/
+
+# Reference-site screenshots, comparisons and scraped data — kept locally only
+docs/reference-screenshots/
+docs/comparisons/
+
+# Generated V1 screenshot archives (superseded by the V2 theme)
+docs/implementation-screenshots/

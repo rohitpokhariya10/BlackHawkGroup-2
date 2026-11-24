@@ -1,0 +1,43 @@
+:root {
+  /* Version 2 — Signature Red luxury palette (the four brand colors). */
+  --brand-primary: #a5092d;
+  --brand-black: #111111;
+  --brand-white: #ffffff;
+  --brand-neutral: #f3f1ef;
+
+  /* Semantic roles */
+  --background: var(--brand-white);
+  --foreground: var(--brand-black);
+  --accent: var(--brand-primary);
+  --surface: var(--brand-neutral);
+  --surface-dark: var(--brand-black);
+
+  /* Tonal derivatives for text, borders, overlays and watermarks */
+  --muted: color-mix(in srgb, var(--brand-black) 64%, var(--brand-neutral));
+  --muted-on-dark: color-mix(in srgb, var(--brand-neutral) 68%, transparent);
+  --soft-on-dark: color-mix(in srgb, var(--brand-neutral) 84%, transparent);
+  --line: color-mix(in srgb, var(--brand-black) 28%, var(--brand-neutral));
+  --line-soft: color-mix(in srgb, var(--brand-black) 12%, var(--brand-neutral));
+  --line-strong: color-mix(in srgb, var(--brand-black) 50%, var(--brand-neutral));
+  --line-on-dark: color-mix(in srgb, var(--brand-white) 40%, transparent);
+  --hover-dark: color-mix(in srgb, var(--brand-black) 86%, var(--brand-white));
+  --surface-deep: color-mix(in srgb, var(--brand-neutral) 94%, var(--brand-black));
+  --watermark: var(--brand-neutral);
+  --watermark-strong: color-mix(in srgb, var(--brand-neutral) 95%, var(--brand-black));
+
+  /* Existing aliases used throughout globals.css */
+  --paper: var(--background);
+  --white: var(--brand-white);
+  --ink: var(--foreground);
+  --body: color-mix(in srgb, var(--brand-black) 92%, var(--brand-white));
+
+  --serif: var(--font-playfair), Georgia, serif;
+  --sans: var(--font-inter), Arial, sans-serif;
+  --body-size: 1rem;
+  --body-leading: 1.875;
+  --heading-size: 4.375rem;
+  --section-inline: clamp(24px, 7.6vw, 146px);
+  --ease: cubic-bezier(.25, .1, .25, 1);
+  --hover-time: .4s;
+  --header-height: 93px;
+}
